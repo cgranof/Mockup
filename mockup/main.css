@@ -1,12 +1,15 @@
 .container-main {
 	max-width: 700px;
 	margin: auto;
-	background-color: #fff;
+	background-color: #e0e0e0;
 	height: auto;
+	margin-bottom: 30px;
 }
 
 html {
 	background: #8c8c8c;
+	color: #1f1f1f;
+	font-size: 14px;
 }
  
 
@@ -31,7 +34,7 @@ html {
 	text-align: right;
 	margin: 0px;
 	background-color: #3b3b3b;
-	border-bottom: 10px solid #242424;
+	border-bottom: 5px solid #242424;
 	height: 50px;
 	line-height: 50px;
 	vertical-align: middle;
@@ -63,4 +66,103 @@ h2 {
 	border-bottom: 1px solid #8c8c8c;
 	margin: 0px
 	padding-bottom: 10px;
+	font-size: 1.5em;
+}
+
+ol {
+	font-weight: bold;
+}
+
+.list-text {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+	width: 600px;
+	margin: auto;
+}
+
+th {
+	background-color: #C2c2c2;
+	border: 1px solid #000;
+	padding: 10px 15px;
+	text-align: left;
+}
+
+td {
+	border: 1px solid #000;
+	padding: 10px 15px;
+}
+
+.buttons {
+	height: 15px;
+	width: 40px;
+	margin: auto;
+	background: blue;
+	color: white;
+}
+
+.email {
+	display: inline-block;
+}
+
+.info-box {
+	height: 15px;
+	width: 50px;
+	background: white;
+	border: #000 ;
+}
+
+.box-comment {
+	margin: auto;
+	margin-bottom: 40px;
+	padding: 20px;
+	background: white;
+	width: 620px;
+	height: 100px;
+	border: 1px solid #1f1f1f;
+}
+
+.box-submit {
+	margin: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: #E83E05;
+	width: 620px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: center;
+	margin-bottom: 25px;
+}
+
+
+.small-box {
+	width: 50px;
+	height: 50px;
+	background: silver;
+	float: left;
+	margin-left: 20px;
+}
+
+time {
+	color: silver;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.user-container1:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.user {
+	float: left;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 17px;
+
 }
